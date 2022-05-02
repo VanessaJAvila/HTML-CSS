@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+    background-image:linear-gradient(rgba(99, 99, 221, 0.685), rgb(157, 221, 157)) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
+h1#principal{
+    text-align: center;
+    background-color: rgba(13, 13, 94, 0.534);
+    color:blanchedalmond
+}
+
+h2{
+    color: antiquewhite;
+}
+.basico {
+    color: rgb(57, 90, 7);
+}
+.intermediario{
+    color: rgb(145, 145, 12);
+}
+.avancado{
+    color: rgb(139, 41, 16);
+}
+
+.adicional{
+    text-align: center;
+    background-color: rgba(124, 199, 155, 0.589);
+    color: rgb(48, 70, 70);
+}
