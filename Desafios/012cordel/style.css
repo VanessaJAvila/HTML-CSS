@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Passion+One&family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+eue&family=Passion+One&family=Roboto+Mono:ital,wght@1,100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Passion+One&family=Roboto+Mono:ital,wght@1,100&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
     --fonte2:'Passion One', cursive;
-    --fonte3:'Sriracha', cursive;
+    --fonte3:'Parisienne', cursive;
 }
 
 *{
     margin:0px;
     padding:0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 html, body{
@@ -23,7 +23,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: rgba(8, 92, 74, 0.534);
     color:white;
     text-align:center;
 }
@@ -54,24 +54,44 @@ section{
     padding-bottom: 10vh;
     line-height:2em;
     padding-left:30px;
-    font-family: var(--fonte3);
     
 }
 
+section>p{
+    padding-bottom:2em;
+}
 section.normal{
     background-color: white;
     color:black;
+    font-family: var(--fonte1);
+    font-size: 2em;;
 }
 
 section.imagem{
     background-color:darkslategrey;
     color:white;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--fonte3);
+    font-size: 2em;
 }
 
 section.imagem > p {
    display:inline-block;
    padding:5px;
     background-color: rgba(16, 165, 115, 0.445);
+    text-shadow: 2px 2px 0px black;
+}
+section#img01{ 
+    background-image:url('../012cordel/imagens/background001.jpg');
+background-position:right center;
+background-size:cover;
+}
+
+section#img02{
+    background-image: url('../012cordel/imagens/background002.jpg');
+background-size:cover;
 }
 
 footer{
