@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Mescladas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+        table{
+            width:700px;
+            height:400px;
+          margin:auto;
+            border-collapse: collapse;
+        }
+
+        tr,td{
+            border:1px solid darkblue;
+        }
+    .verm{
+        background-color:red;
+    }
+    .azul{
+        background-color: blue;
+    }
+    .amarelo{
+        background-color:yellow;
+    }
+
+    .verde{
+        background-color: greenyellow;
+    }
+
+    .laranja{
+        background-color: orange;
+    }
+    </style>
+</head>
+<body>
+    <h1>Exercicio 1 Tabelas Mescladas</h1>
+    <table>
+        <tr>
+<td class="verm">1</td>
+<td class="azul">2</td>
+<td rowspan="2" class="amarelo">3</td>
+<td class="verde">4</td>
+        </tr>
+        <tr>
+            <td class="laranja">5</td>
+            <td class="verde">6</td>
+            <td class="laranja">7</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="amarelo">8</td>
+            <td class="azul">9</td>
+            </tr>
+            <tr>
+            <td rowspan="2" class="amarelo">10</td>
+            <td colspan="2" class="amarelo">11</td>
+            <td class="laranja">12</td>
+        </tr>
+        <tr>
+            <td class="verde">13</td>
+            <td class="azul">14</td>
+            <td class="verm">15</td>
+        </tr>
+    </table>
+</body>
+</html>
