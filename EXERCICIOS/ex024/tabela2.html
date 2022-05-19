@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        }
+
+        table{
+            width: 500px;
+            border-collapse:collapse;
+            margin:auto;
+     
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding:8px;
+
+        }
+        
+        col.cnome{
+            background-color:chartreuse;
+        }
+        .csexo,.cidade{
+            background-color:yellowgreen;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nomes</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col" >Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Esteticista</td>
+                </tr>
+                <tr>
+                    <td>Ana Filipa</td>
+                    <td>F</td>
+                    <td>34</td>
+                    <td>Logista</td>
+                    </tr>
+                    <tr>
+                        <td>Laura Gaspar</td>
+                        <td>F</td>
+                        <td>28</td>
+                        <td>Massagista</td>
+                        </tr>
+                        <tr>
+                            <td>Liliana Moreno</td>
+                            <td>F</td>
+                            <td>31</td>
+                            <td>Administrativa</td>
+                            </tr>        
+    </table>
+</body>
+</html>
